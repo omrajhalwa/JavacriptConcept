@@ -14,7 +14,7 @@ function timeConsumingByRuntimeFeature0() {
         }
     }, 1000); // 1 sec timer
 
-    console.log("ending timer 0");
+   // console.log("ending timer 0");
 }
 function timeConsumingByRuntimeFeature1() {
     console.log("Starting timer 1");
