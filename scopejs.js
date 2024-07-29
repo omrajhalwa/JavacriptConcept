@@ -158,3 +158,30 @@
 
 // debug();
 
+/*dynamic scope not in javascript */
+function foo(){
+    console.log(a);
+ }
+ 
+ function goo(){
+     var a='age';
+      foo();
+     
+   
+ }
+ // goo();  error
+ 
+ //..........................
+ 
+ /*lexical scope//////////////*/
+ 
+ function foo1(){
+ 
+   var a ='age';
+   function goo2(){
+     console.log(a);
+   }
+ 
+   goo2();
+ }
+ foo1();
