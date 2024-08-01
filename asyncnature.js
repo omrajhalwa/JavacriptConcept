@@ -39,3 +39,5 @@ timeConsumingByRuntimeFeature1();
 timeConsumingByRuntimeFeature2();
 timeConsumingByLoop();
 console.log("By");
+
+console.log("learn some github features");
